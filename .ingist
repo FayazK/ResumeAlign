@@ -1,0 +1,3 @@
+ALLOWED_FILES=.js,.css,.md,.txt,.py
+EXCLUDE_DIRECTORIES=.venv,.git,.idea,cache
+EXCLUDE_FILES=

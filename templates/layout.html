@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeAlign - AI-Powered Resume Optimization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50">
+<!-- Header -->
+<header class="bg-white shadow">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 justify-between items-center">
+            <div class="flex">
+                <a href="/" class="flex items-center">
+                    <span class="text-2xl font-bold text-indigo-600">ResumeAlign</span>
+                </a>
+            </div>
+            <div class="flex gap-4">
+                <a href="/" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">
+                    Resume Alignment
+                </a>
+                <a href="/profile" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">
+                    Profile Setup
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<main class="flex-grow">
+    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <!-- Content placeholder -->
+        <div class="px-4 py-6 sm:px-0">
+            <!-- Page content goes here -->
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-white shadow">
+    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <p class="text-center text-sm text-gray-500">
+            © 2025 Crafted with ❤️ by <a href="https://fayazk.com" class="text-indigo-600 hover:text-indigo-500">Fayaz
+            Khan</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
